@@ -8,7 +8,7 @@ window.private = {
     sanitize: require('./src/sanitize')
 };
 
-},{"./src/url":2,"./src/config":3,"./src/util":4,"./src/request":5,"./src/grid":6,"./src/sanitize":7}],3:[function(require,module,exports){
+},{"./src/url":2,"./src/config":3,"./src/util":4,"./src/grid":5,"./src/request":6,"./src/sanitize":7}],3:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -60,7 +60,7 @@ module.exports = {
     }
 };
 
-},{}],6:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 'use strict';
 
 function utfDecode(c) {
@@ -2617,7 +2617,7 @@ if (typeof module !== 'undefined') {
 }
 
 })()
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 'use strict';
 
 var corslite = require('corslite'),
